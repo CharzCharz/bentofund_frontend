@@ -2511,6 +2511,7 @@ blockquote {
 }
 .hero-card-icon {
     width: auto;
+    height: 70px;
     margin-bottom: 10px;
 }
 .hero-card {
