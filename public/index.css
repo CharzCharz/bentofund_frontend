@@ -1868,7 +1868,7 @@ textarea.w-select {
 body {
     margin: 0;
     min-height: 100%;
-    background-color: #212227;
+    background-color: #1a1633;
     font-family: Roboto, sans-serif;
     color: #fff;
     font-size: 20px;
@@ -1969,7 +1969,7 @@ blockquote {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     max-width: 1680px;
     margin-right: auto;
     margin-left: auto;
@@ -2013,6 +2013,7 @@ blockquote {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    align-items: center;
 }
 .container.article__grid {
     display: -ms-grid;
@@ -2095,7 +2096,7 @@ blockquote {
     right: 0;
     bottom: auto;
     height: 80px;
-    background-color: #212227;
+    background-color: #1a1633;
 }
 .hero-wallet-wrap {
     position: absolute;
@@ -2140,7 +2141,7 @@ blockquote {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -2304,16 +2305,16 @@ blockquote {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #212227;
+    background-color: #1a1633;
 }
 .section.brown {
-    background-color: #8d6752;
+    background: radial-gradient(112.89% 1265.45% at -2.27% -3.37%, #060145 0%, #7422A8 100%);
 }
 .section.brown.margin-bottom {
     padding-bottom: 40px;
 }
 .section.red {
-    background-color: #791425;
+    background: radial-gradient(112.89% 1265.45% at -2.27% -3.37%, #060145 0%, #7422A8 100%);
 }
 .section.red.subscribe {
     padding-top: 35px;
@@ -2326,7 +2327,7 @@ blockquote {
 .section.team {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212227;
+    background-color: #1a1633;
     background-image: url("https://uploads-ssl.webflow.com/60463348112d79b6f81cb3b6/605732dc4dfc7f09ea825381_Hord%20logo%20big.svg");
     background-position: 50% 80%;
     background-repeat: no-repeat;
@@ -2335,7 +2336,7 @@ blockquote {
 .section.hero {
     padding-top: 10vw;
     padding-bottom: 0;
-    background-color: #212227;
+    background-color: #1a1633;
     background-image: none;
     background-size: auto;
     background-repeat: repeat;
@@ -2541,7 +2542,7 @@ blockquote {
     grid-template-rows: 70px 30px;
     border: 1px solid #27282d;
     border-radius: 15px;
-    background-color: #27282d;
+    background-color: #1a1633;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
     font-size: 16px;
     line-height: 20px;
@@ -2626,7 +2627,7 @@ blockquote {
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    background-color: #212227;
+    background-color: #1a1633;
     text-align: center;
 }
 .txt-center {
@@ -2800,7 +2801,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 15px;
-    background-color: #212227;
+    background-color: #1a1633;
 }
 .subscribe-form.remodal__form {
     margin-top: 30px;
@@ -2850,7 +2851,7 @@ blockquote {
 .footer {
     padding-top: 40px;
     padding-bottom: 60px;
-    background-color: #212227;
+    background-color: #1a1633;
 }
 .footer-wrap {
     display: -webkit-box;
@@ -3392,7 +3393,7 @@ blockquote {
     flex-direction: row;
 }
 .remodal-bg {
-    background-color: #212227;
+    background-color: #1a1633;
 }
 .remodal {
     display: -webkit-box;
@@ -3473,7 +3474,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #212227;
+    background-color: #1a1633;
     background-image: url("https://uploads-ssl.webflow.com/60463348112d79b6f81cb3b6/6078074af4fa1980119736e4_about.png");
     background-position: 50% 28%;
     background-size: cover;
@@ -4526,7 +4527,7 @@ blockquote {
     position: relative;
 }
 .empty-state {
-    background-color: #212227;
+    background-color: #1a1633;
     text-align: center;
 }
 .div-block-10 {
@@ -4703,7 +4704,7 @@ blockquote {
     position: absolute;
     left: 0;
     top: 50%;
-    background-color: #212227;
+    background-color: #1a1633;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
@@ -4748,8 +4749,8 @@ blockquote {
     position: absolute;
     top: 50%;
     max-width: none;
-    background-image: -webkit-gradient(linear, left top, right top, from(#212227), color-stop(50%, #212227), to(hsla(0, 0%, 100%, 0)));
-    background-image: linear-gradient(90deg, #212227, #212227 50%, hsla(0, 0%, 100%, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(#1a1633), color-stop(50%, #1a1633), to(hsla(0, 0%, 100%, 0)));
+    background-image: linear-gradient(90deg, #1a1633, #1a1633 50%, hsla(0, 0%, 100%, 0));
     -webkit-transform: translate(0, -55%);
     -ms-transform: translate(0, -55%);
     transform: translate(0, -55%);
@@ -5324,7 +5325,7 @@ blockquote {
     .section {
         display: block;
         overflow: visible;
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .section.red.check-hord {
         padding-top: 80px;
@@ -5332,13 +5333,13 @@ blockquote {
     }
     .section.team {
         padding-top: 0;
-        background-color: #212227;
+        background-color: #1a1633;
         background-image: url("https://uploads-ssl.webflow.com/60463348112d79b6f81cb3b6/605732dc4dfc7f09ea825381_Hord%20logo%20big.svg");
     }
     .section.hero {
         padding-top: 10vw;
         padding-bottom: 0;
-        background-color: #212227;
+        background-color: #1a1633;
         background-image: none;
         background-size: auto;
         background-repeat: repeat;
@@ -5387,6 +5388,10 @@ blockquote {
         grid-template-columns: auto;
         -ms-grid-rows: auto;
         grid-template-rows: auto;
+        background: linear-gradient(67.36deg, #060145 -16.31%, #7422A8 103.53%);
+/* 30 */
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
     }
     .faq-toggle {
         background-color: #27282d;
@@ -5397,7 +5402,7 @@ blockquote {
         font-weight: 500;
     }
     .footer {
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .footer-wrap {
         padding-right: 0;
@@ -5666,7 +5671,7 @@ blockquote {
         background-color: transparent;
     }
     .empty-state {
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .text-block-8 {
         text-align: center;
@@ -5773,7 +5778,7 @@ blockquote {
         align-self: stretch;
     }
     .utility-page-wrap {
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .hp-illustration.hp-illustrarion--margin-left {
         margin-right: 0;
@@ -5888,7 +5893,7 @@ blockquote {
         text-align: center;
     }
     .empty-state {
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .text-block-8 {
         text-align: center;
@@ -5935,7 +5940,7 @@ blockquote {
     }
     .container {
         display: block;
-        height: 100%;
+        /* height: 100%; */
     }
     .container.narrow-1100 {
         padding-top: 40px;
@@ -5953,7 +5958,7 @@ blockquote {
         grid-template-columns: 1fr 1fr;
         -ms-grid-rows: auto auto;
         grid-template-rows: auto auto;
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .container.article__grid {
         margin-top: 40px;
@@ -6317,7 +6322,7 @@ blockquote {
         align-self: center;
     }
     .ether-wrap {
-        width: 160px;
+        width: 260px;
         margin-top: 0;
         margin-right: auto;
         margin-left: auto;
@@ -6696,7 +6701,7 @@ blockquote {
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .news-rich-text {
         margin-bottom: -60px;
@@ -6765,8 +6770,8 @@ blockquote {
         top: 0;
         width: 56px;
         max-width: none;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#212227), color-stop(50%, #212227), to(hsla(0, 0%, 100%, 0)));
-        background-image: linear-gradient(180deg, #212227, #212227 50%, hsla(0, 0%, 100%, 0));
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#1a1633), color-stop(50%, #1a1633), to(hsla(0, 0%, 100%, 0)));
+        background-image: linear-gradient(180deg, #1a1633, #1a1633 50%, hsla(0, 0%, 100%, 0));
         -webkit-transform: translate(-50%, -45%);
         -ms-transform: translate(-50%, -45%);
         transform: translate(-50%, -45%);
@@ -7947,7 +7952,7 @@ blockquote {
         padding-right: 7px;
     }
     .news__hitn {
-        background-color: #212227;
+        background-color: #1a1633;
     }
     .footer__notification {
         white-space: nowrap;
@@ -8597,4 +8602,13 @@ blockquote {
         -ms-grid-column-align: center;
         justify-self: center;
     }
+}
+
+
+.mchef-container{
+    display:flex;
+}
+
+.mchef-container>.box{
+    padding: 15px;
 }
