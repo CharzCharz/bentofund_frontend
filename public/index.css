@@ -2345,7 +2345,6 @@ blockquote {
     background-position: 100% 80px;
 }
 .section.hero.home {
-    padding-bottom: 10vw;
     background-image: none;
     background-size: auto;
     background-repeat: repeat;
@@ -2542,7 +2541,7 @@ blockquote {
     grid-template-rows: 70px 30px;
     border: 1px solid #27282d;
     border-radius: 15px;
-    background-color: #1a1633;
+    background: linear-gradient(67.36deg, #060145 -16.31%, #7422A8 103.53%);
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
     font-size: 16px;
     line-height: 20px;
@@ -6916,8 +6915,7 @@ blockquote {
         object-fit: contain;
     }
     .container {
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 15px;
     }
     .container.narrow-1100 {
         margin-bottom: 0;
@@ -7044,6 +7042,8 @@ blockquote {
         line-height: 1.4em;
     }
     .hero-card-icon {
+        /* width: 65px;
+        height: auto; */
         width: auto;
         max-width: none;
     }
@@ -8604,11 +8604,24 @@ blockquote {
     }
 }
 
-
+/* NEW */
 .mchef-container{
     display:flex;
 }
 
 .mchef-container>.box{
     padding: 15px;
+}
+
+.feat-block>img{
+    width: 53px;
+    justify-self: center;
+    height: 53px;
+}
+
+.hero-card>img{
+    width: 65px;
+    height: 75px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
 }
