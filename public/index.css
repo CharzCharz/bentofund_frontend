@@ -6008,7 +6008,7 @@ blockquote {
     }
     .hero-wallet-wrap {
         width: 100%;
-        height: 100vw;
+        height: 120vw;
         -webkit-perspective: 0px;
         perspective: 0px;
         -webkit-transform: perspective(0);
@@ -6044,6 +6044,7 @@ blockquote {
         grid-template-columns: 1fr;
     }
     .hero-wallet {
+        top: -5%;
         left: 54px;
         right: auto;
         width: 100%;
@@ -6972,6 +6973,7 @@ blockquote {
         height: 60px;
     }
     .hero-wallet {
+        top: 10%;
         left: 40px;
         overflow: hidden;
         width: auto;
@@ -7474,9 +7476,10 @@ blockquote {
         line-height: 1.2em;
     }
     .hero-wallet-wrap {
-        height: 100vw;
+        height: 120vw;
     }
     .hero-wallet {
+        top: 10%;
         left: 15px;
         right: auto;
         width: auto;
